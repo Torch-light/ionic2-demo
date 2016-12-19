@@ -1,0 +1,94 @@
+<ion-header>
+    <ion-navbar>
+        <button icon-left="" ion-button="" small="">
+             <ion-icon ios="ios-arrow-dropleft-circle" md="md-arrow-dropleft-circle"></ion-icon>
+        </button>
+        <ion-title >
+            首页
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+<!-- <div class="bar bar-header bar-light">
+  <button class="button icon ion-chevron-left"></button>
+  <h1 class="title">IT-技术测试 </h1>
+</div> -->
+
+<ion-content >
+<my-slide [slide]='slide' [datas]='defalutData' class="banner_wrap"></my-slide>
+<div class="store-wrap store-info-wrap">
+         <div class="store-info border-b">
+              <div class="avatar">
+                   <span style="background-image: url(http://img.zcool.cn/community/focus/9ee15844d8c400000174c857659d.jpg)"></span>
+              </div>
+              <div class="title">门店名称<small>营业中</small></div>
+              <div class="act-info">
+                 <ul>
+                     <li><span>折</span>全店每单9折(不与其他折扣活动共享) </li>
+                 </ul>
+                 <ion-icon name="arrow-forward"></ion-icon>
+              </div>
+              <ul class="add-info">
+                <li>中江路879号<span>距您约:0.16km</span></li>
+              </ul>
+         </div>
+         <ul class="store-btn-list">
+            <li>
+                <span style="background-image: url(img/itembtn-icon-1.png);"></span>
+                <p>外卖</p>
+            </li>
+            <li>
+                <span style="background-image: url(img/itembtn-icon-3.png)"></span>
+                <p>堂吃</p>
+            </li>
+            <li>
+                 <span style="background-image: url(img/itembtn-icon-2.png)"></span>
+                 <p>预定</p>
+            </li>
+            <li>
+                 <span><i class="icon iconfont">2</i></span>
+                 <p>会员卡</p>
+            </li>
+            <li>
+                 <span style="background-image: url(img/itembtn-icon-2.png)"></span>
+                 <p>预定</p>
+            </li>
+            <li>
+                 <span><i class="icon iconfont">2</i></span>
+                 <p>会员卡</p>
+            </li>
+         </ul>
+     </div>
+
+       <div class="store-wrap">
+         <ul class="act-list">
+              <li class="red-packet border-r">
+                  <div class="info">
+                     <h3>抢红包</h3>
+                     <p>一大波红包</p>
+                  </div>
+              </li>
+              <li class="coupon border-r">
+                  <div class="info">
+                     <h3>领取优惠券</h3>
+                     <p>你有优惠券未领取</p>
+                  </div>
+              </li>
+         </ul>
+     </div>
+     <div class="store-wrap">
+         <ul class="store-about">
+           <li class="border-b">
+                <div class="time">08:00-20:00</div>
+           </li>
+           <li class="border-b">
+                <div class="tel">15626267468</div>
+                <span class="ion-chevron-right"></span>
+
+           </li>
+           <li class="border-b">
+                <div class="map">中江路879号</div>
+                <span class="ion-chevron-right"></span>
+           </li>
+         </ul>
+     </div>
+</ion-content>

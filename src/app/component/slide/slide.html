@@ -1,0 +1,10 @@
+ <div *ngIf='datas' class="banner_wrap">
+ <ion-slides  [options]='slide' >
+        <ion-slide *ngFor="let data of datas">
+            <span style="background-image:url(http://img.zcool.cn/community/focus/9ee15844d8c400000174c857659d.jpg)">
+                {{data.data}}
+            </span>
+        </ion-slide>
+</ion-slides>
+
+</div>

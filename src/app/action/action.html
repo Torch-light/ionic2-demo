@@ -1,0 +1,80 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button icon-only menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+        <ion-title>
+            点餐
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+  <ion-content class="bg-img">
+     <ion-fab top right edge>
+    <button ion-fab mini><ion-icon name="ios-arrow-round-down" ></ion-icon></button>
+    <ion-fab-list>
+      <button ion-fab><ion-icon name="logo-facebook"></ion-icon></button>
+      <button ion-fab><ion-icon name="logo-twitter"></ion-icon></button>
+      <button ion-fab><ion-icon name="logo-vimeo"></ion-icon></button>
+      <button ion-fab><ion-icon name="logo-googleplus"></ion-icon></button>
+    </ion-fab-list>
+  </ion-fab>
+<div class="menu-wrap menu-wrap-list">
+
+          <h4 class="title"><span class="line"></span>店家推荐<span class="line"></span></h4>
+          <ul>
+             <li  ng-click="openPopover($event)" class="border-b">
+              <img src="http://img.zcool.cn/community/032f29d584509e2a801219c778428b6.jpg" class="food-img">
+              <div class="info">
+                 <h4>绝味黄焖鸡米饭</h4>
+                 <p class="price">¥23.00</p>
+              </div>
+             </li>
+             <li ng-click="showPopup()" class="border-b">
+              <img src="http://img.zcool.cn/community/032f29d584509e2a801219c778428b6.jpg" class="food-img">
+              <div class="info">
+                 <h4>绝味黄焖鸡米饭</h4>
+                 <p class="price">¥23.00</p>
+              </div>
+             </li>
+          </ul>
+          <h4 class="title"><span class="line"></span>店家推荐<span class="line"></span></h4>
+          <ul>
+             <li ng-click="modal.show()" class="border-b">
+              <img src="http://img.zcool.cn/community/032f29d584509e2a801219c778428b6.jpg" class="food-img">
+              <div class="info">
+                 <h4>绝味黄焖鸡米饭</h4>
+                 <p class="price">¥23.00</p>
+              </div>
+             </li>
+             <li class="border-b">
+              <img src="http://img.zcool.cn/community/032f29d584509e2a801219c778428b6.jpg" class="food-img">
+              <div class="info">
+                 <h4>绝味黄焖鸡米饭</h4>
+                 <p class="price">¥23.00</p>
+              </div>
+             </li>
+          </ul>
+     </div>
+  </ion-content>
+  
+<div class="fixed-menu">
+    <span></span>
+    导航
+</div>
+<div class="fixed-cart">
+    <span></span>
+    购物车
+</div>
+
+<div class="side-tools">
+     <div class="type-img"></div>
+     <div class="type-list" style="display:none;"></div>
+     <div class="more">
+        <div class="more-switch"></div>
+      <ul>
+        <li class="search">搜索</li>
+        <li class="ping">发起拼单</li>
+        <li class="evaluate">评价</li>
+      </ul>
+     </div>
+</div>
